@@ -25,7 +25,8 @@ function updateIcon() {
         url.startsWith("https://claude.ai") ||
         url.startsWith("https://www.bing.com/chat") ||
         url.startsWith("https://you.com") ||
-        url.startsWith("https://dashboard.cohere.com/playground/chat")) {
+        url.startsWith("https://dashboard.cohere.com/playground/chat") ||
+        url.startsWith("https://ml.azure.com/prompts/flow/")) {
       chrome.action.setIcon({ path: isEnabled ? "icon/enabled.png" : "icon/disabled.png" });
     }
   });

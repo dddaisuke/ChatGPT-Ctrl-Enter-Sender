@@ -27,7 +27,8 @@
         "https://www.chatpdf.com/*",
         "https://www.perplexity.ai/*",
         "https://you.com/*",
-        "https://dashboard.cohere.com/playground/chat"
+        "https://dashboard.cohere.com/playground/chat",
+        "https://ml.azure.com/prompts/flow/*"
       ],
       "js": ["script.js"]
     },
@@ -55,7 +56,8 @@
     "https://claude.ai/*",
     "https://www.bing.com/chat*",
     "https://you.com/*",
-    "https://dashboard.cohere.com/playground/chat"
+    "https://dashboard.cohere.com/playground/chat",
+    "https://ml.azure.com/prompts/flow/*"
   ],
   "action": {
     "default_popup": "popup.html",
