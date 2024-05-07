@@ -22,7 +22,8 @@ function updateIcon() {
         url.startsWith("https://bard.google.com") ||
         url.startsWith("https://www.chatpdf.com") ||
         url.startsWith("https://www.perplexity.ai") ||
-        url.startsWith("https://ml.azure.com/prompts/flow/")) {
+        url.startsWith("https://ml.azure.com/prompts/flow/") ||
+        url.startsWith("https://chatgpt.com")) {
       chrome.action.setIcon({ path: isEnabled ? "icon/enabled.png" : "icon/disabled.png" });
     }
   });

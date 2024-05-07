@@ -21,7 +21,8 @@
         "https://bard.google.com/*",
         "https://www.chatpdf.com/*",
         "https://www.perplexity.ai/*",
-        "https://ml.azure.com/prompts/flow/*"
+        "https://ml.azure.com/prompts/flow/*",
+        "https://chatgpt.com/*"
       ],
       "js": ["script.js"]
     }
@@ -38,7 +39,8 @@
     "https://bard.google.com/*",
     "https://www.chatpdf.com/*",
     "https://www.perplexity.ai/*",
-    "https://ml.azure.com/prompts/flow/*"
+    "https://ml.azure.com/prompts/flow/*",
+    "https://chatgpt.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
