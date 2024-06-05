@@ -5,18 +5,14 @@
   "description": "__MSG_appDesc__",
   "default_locale": "en",
   "author": "Kamada Masachika",
-  "permissions": [
-    "storage"
-  ],
+  "permissions": ["storage"],
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://chatgpt.com/*"
-      ],
+      "matches": ["https://chatgpt.com/*"],
       "js": ["script_chatgpt.js"]
     },
     {
@@ -28,15 +24,13 @@
         "https://www.perplexity.ai/*",
         "https://you.com/*",
         "https://dashboard.cohere.com/playground/chat",
-        "https://ml.azure.com/prompts/flow/*"
+        "https://ml.azure.com/prompts/flow/*",
+        "https://gemini.google.com/*"
       ],
       "js": ["script.js"]
     },
     {
-      "matches": [
-        "https://claude.ai/*",
-        "https://www.bing.com/chat*"
-      ],
+      "matches": ["https://claude.ai/*", "https://www.bing.com/chat*"],
       "js": ["script_document_start.js"],
       "run_at": "document_start"
     }
@@ -57,7 +51,8 @@
     "https://www.bing.com/chat*",
     "https://you.com/*",
     "https://dashboard.cohere.com/playground/chat",
-    "https://ml.azure.com/prompts/flow/*"
+    "https://ml.azure.com/prompts/flow/*",
+    "https://gemini.google.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
