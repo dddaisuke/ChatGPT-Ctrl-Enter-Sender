@@ -22,7 +22,8 @@
         "https://www.chatpdf.com/*",
         "https://www.perplexity.ai/*",
         "https://ml.azure.com/prompts/flow/*",
-        "https://chatgpt.com/*"
+        "https://chatgpt.com/*",
+        "https://gemini.google.com/*"
       ],
       "js": ["script.js"]
     }
@@ -40,7 +41,8 @@
     "https://www.chatpdf.com/*",
     "https://www.perplexity.ai/*",
     "https://ml.azure.com/prompts/flow/*",
-    "https://chatgpt.com/*"
+    "https://chatgpt.com/*",
+    "https://gemini.google.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
