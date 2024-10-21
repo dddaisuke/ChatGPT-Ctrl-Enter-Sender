@@ -27,7 +27,8 @@ function updateIcon() {
         url.startsWith("https://you.com") ||
         url.startsWith("https://dashboard.cohere.com/playground/chat") ||
         url.startsWith("https://ml.azure.com/prompts/flow/") ||
-        url.startsWith("https://gemini.google.com")) {
+        url.startsWith("https://gemini.google.com") ||
+        url.startsWith("https://bolt.new")) {
       chrome.action.setIcon({ path: isEnabled ? "icon/enabled.png" : "icon/disabled.png" });
     }
   });

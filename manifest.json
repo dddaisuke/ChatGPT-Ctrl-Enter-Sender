@@ -25,7 +25,8 @@
         "https://you.com/*",
         "https://dashboard.cohere.com/playground/chat",
         "https://ml.azure.com/prompts/flow/*",
-        "https://gemini.google.com/*"
+        "https://gemini.google.com/*",
+        "https://bolt.new/*"
       ],
       "js": ["script.js"]
     },
@@ -52,7 +53,8 @@
     "https://you.com/*",
     "https://dashboard.cohere.com/playground/chat",
     "https://ml.azure.com/prompts/flow/*",
-    "https://gemini.google.com/*"
+    "https://gemini.google.com/*",
+    "https://bolt.new/*"
   ],
   "action": {
     "default_popup": "popup.html",
