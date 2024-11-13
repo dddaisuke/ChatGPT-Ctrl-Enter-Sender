@@ -27,7 +27,8 @@
         "https://ml.azure.com/prompts/flow/*",
         "https://gemini.google.com/*",
         "https://bolt.new/*",
-        "https://felo.ai/*"
+        "https://felo.ai/*",
+        "https://replit.com/*"
       ],
       "js": ["script.js"]
     },
@@ -56,7 +57,8 @@
     "https://ml.azure.com/prompts/flow/*",
     "https://gemini.google.com/*",
     "https://bolt.new/*",
-    "https://felo.ai/*"
+    "https://felo.ai/*",
+    "https://replit.com/*"
   ],
   "action": {
     "default_popup": "popup.html",

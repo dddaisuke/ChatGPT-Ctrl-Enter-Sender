@@ -29,7 +29,8 @@ function updateIcon() {
         url.startsWith("https://ml.azure.com/prompts/flow/") ||
         url.startsWith("https://gemini.google.com") ||
         url.startsWith("https://bolt.new") ||
-        url.startsWith("https://felo.ai")) {
+        url.startsWith("https://felo.ai") ||
+        url.startsWith("https://replit.com")) {
       chrome.action.setIcon({ path: isEnabled ? "icon/enabled.png" : "icon/disabled.png" });
     }
   });
