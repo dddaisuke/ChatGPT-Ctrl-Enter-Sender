@@ -30,7 +30,8 @@ function updateIcon() {
         url.startsWith("https://gemini.google.com") ||
         url.startsWith("https://bolt.new") ||
         url.startsWith("https://felo.ai") ||
-        url.startsWith("https://replit.com")) {
+        url.startsWith("https://replit.com") ||
+        url.startsWith("https://gearindigo.app")) {
       chrome.action.setIcon({ path: isEnabled ? "icon/enabled.png" : "icon/disabled.png" });
     }
   });

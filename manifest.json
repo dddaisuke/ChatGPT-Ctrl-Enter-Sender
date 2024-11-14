@@ -28,7 +28,8 @@
         "https://gemini.google.com/*",
         "https://bolt.new/*",
         "https://felo.ai/*",
-        "https://replit.com/*"
+        "https://replit.com/*",
+        "https://gearindigo.app/*"
       ],
       "js": ["script.js"]
     },
@@ -58,7 +59,8 @@
     "https://gemini.google.com/*",
     "https://bolt.new/*",
     "https://felo.ai/*",
-    "https://replit.com/*"
+    "https://replit.com/*",
+    "https://gearindigo.app/*"
   ],
   "action": {
     "default_popup": "popup.html",
